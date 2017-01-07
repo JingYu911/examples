@@ -1,0 +1,7 @@
+from pygeocoder import Geocoder
+
+if __name__=='__mian__':
+
+    address = '207 N. Defiance St, Archbold, OH'
+    print(Geocoder.geocode(address)[0].coordinates)
+

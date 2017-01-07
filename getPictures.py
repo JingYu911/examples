@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 '''
 这是一个简单的美女图片采集程序，还有许多要改进的地方
 '''
@@ -107,10 +108,10 @@ def GetItems(url):
 
                 GetItemPictures(newItem)
 
-GetItems("http://www.meitulu.com/t/sugar-xiaotianxincc/")             #获取全部套图
+#GetItems("http://www.meitulu.com/t/sugar-xiaotianxincc/")             获取全部套图
 
 
-#GetItemPictures("http://www.meitulu.com/item/8744.html")      #获取一套图
+GetItemPictures("http://www.meitulu.com/item/8281.html")      # 获取一套图
 
 
 
